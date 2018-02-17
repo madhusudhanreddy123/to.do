@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:listPreferredItemHeight"
+    android:background="@android:color/holo_green_light"
+    android:orientation="horizontal"
+    android:gravity="end">
+
+    <ImageView
+        android:layout_width="@dimen/swipe_image_size"
+        android:layout_height="@dimen/swipe_image_size"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:contentDescription="completed task"
+        android:src="@drawable/check_mark"/>
+
+</LinearLayout>
